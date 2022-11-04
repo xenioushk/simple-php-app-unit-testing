@@ -1,16 +1,16 @@
 ## Composer install.
 
-composer require phpunit/phpunit ^9
+<pre><code>composer require phpunit/phpunit ^9.5</code></pre>
 
 ## Check the version
 
-./vendor/bin/phpunit --version
+<pre><code>./vendor/bin/phpunit --version</code></pre>
 
 ## Write config file.
 
 <strong>phpunit.xml</strong> in root of the directory.
 
-<?xml version="1.0" encoding="UTF-8" ?>
+<pre><code><?xml version="1.0" encoding="UTF-8" ?>
 
 <phpunit bootstrap="vendor/autoload.php"
 colors="true"
@@ -22,12 +22,12 @@ stopOnFailure="false">
   </testsuite>
 </testsuites>
 
-</phpunit>
+</phpunit></code></pre>
 
 ## Run A Test.
 
-./vendor/bin/phpunit
+<pre><code>./vendor/bin/phpunit</code></pre>
 
 ## Details result of th test.
 
-./vendor/bin/phpunit --testdox
+<pre><code>./vendor/bin/phpunit --testdox</code></pre>
