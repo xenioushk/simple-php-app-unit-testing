@@ -37,10 +37,8 @@ class CalculatorTest extends TestCase
 
   public function testMultiply()
   {
-
     $calculator = new Inc\Calculator;
     $result = $calculator->multiplication(3, 4);
-
     $this->assertEquals(12, $result);
   }
 }
